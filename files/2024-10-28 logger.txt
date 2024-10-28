@@ -1,0 +1,12 @@
+[2024-10-28 12:18:34][INFO] message: Starting application 
+[2024-10-28 12:20:26][DEBUG] message: Calling method X 
+[2024-10-28 12:20:26][INFO] message: Starting application 
+[2024-10-28 12:20:48][INFO] message: Starting application 
+[2024-10-28 12:20:50][INFO] message: Starting application 
+[2024-10-28 12:20:51][INFO] message: Starting application 
+[2024-10-28 12:21:01][DEBUG] message: Calling method X 
+[2024-10-28 12:21:01][INFO] message: Starting application 
+[2024-10-28 12:21:02][DEBUG] message: Calling method X 
+[2024-10-28 12:21:02][INFO] message: Starting application 
+[2024-10-28 12:21:10][INFO] message: Starting application 
+[2024-10-28 12:21:10][DEBUG] message: Calling method X 
