@@ -1,11 +1,25 @@
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class FileLoggerConfiguration extends FileLogger {
-    protected static String loggerPath = "files/";
-    private LoggingLevel loggingLevel;
-    private static long sizeLimit = 42;
-    protected static String format = "[%s][%s] message: %s %n";
+public class FileLoggerConfiguration {
+    private final  String loggerPath = "files/";
+    private final  LoggingLevel loggingLevel = LoggingLevel.DEBUG;
+    private final  long sizeLimit = 1000;
+    private final  String format = "[%s][%s] message: %s %n";
 
+    public String getLoggerPath() {
+        return loggerPath;
+    }
 
+    public LoggingLevel getLoggingLevel() {
+        return loggingLevel;
+    }
+
+    public long getSizeLimit() {
+        return sizeLimit;
+    }
+
+    public String getFormat() {
+        return format;
+    }
 }
