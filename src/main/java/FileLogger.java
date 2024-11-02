@@ -11,8 +11,8 @@ public class FileLogger implements Logger {
     private final SimpleDateFormat formater = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     private final SimpleDateFormat formaterName = new SimpleDateFormat("yyyy-MM-dd_HH-mm");
     private final Date date = new Date();
-    FileLoggerConfiguration config = new FileLoggerConfiguration();
-    private final String fileName = config.getLoggerPath() + formaterName.format(date) + " logger.txt";
+    FileLoggerConfiguration config = FileLoggerConfigurationLoader.load();
+    private final String fileName = config.getLoggerPath() + formaterName.format(date) + " logger.log";
     File file = new File(fileName);
     long fileSize = file.length();
 
