@@ -12,6 +12,7 @@ target/
 *.iml
 *.ipr
 
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -40,3 +41,5 @@ build/
 /.idea/misc.xml
 /.idea/.gitignore
 /.idea/vcs.xml
+/.idea/uiDesigner.xml
+/.idea/*
