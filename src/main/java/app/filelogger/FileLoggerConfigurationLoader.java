@@ -1,10 +1,14 @@
+package app.filelogger;
+
+import app.LoggingLevel;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class FileLoggerConfigurationLoader  {
 
-    private static final String CONFIG_PATH = "config/logger.config";
+    private static final String CONFIG_PATH = "src/main/config/logger.config";
 
     public static FileLoggerConfiguration load() {
         Properties props = new Properties();

@@ -1,3 +1,7 @@
+package app.filelogger;
+
+import app.LoggingLevel;
+
 public class FileLoggerConfiguration {
 
 
